@@ -1,1 +1,25 @@
+n = int(input( 'n: '))
 
+a = 0
+p = 1
+arr = [a, p]
+
+while n <=0:
+    print("digite um número maior que zero")
+    n = int(input( 'n: '))
+
+if n == 1:
+            print(a)
+else:
+        
+
+        for i in range(2,n):
+            soma = a+p
+            arr.append(soma)
+            a=p
+            p=soma
+
+print(arr)
+
+if n in arr:
+    print('n pertence a sequência')
