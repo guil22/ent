@@ -1,0 +1,13 @@
+// js 
+
+function palindrome(str) {
+  
+  let str1 = ''
+let tam = str.length;
+for (let i = tam; i > 0; i--){
+  str1= str1.concat(str[i-1])
+}
+ 
+}
+
+palindrome("eye9*87");
