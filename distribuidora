@@ -1,0 +1,18 @@
+#PYTHON
+
+SP = 67836.43
+MG = 29229.88
+RJ =  36678.66
+ES = 27165.48
+OTS= 19849.53
+
+TOT =  SP + MG + RJ + ES + OTS
+
+print(TOT)
+
+
+print(f'SP = {SP/TOT*100: .2f}%')
+print(f'MG = {MG/TOT*100: .2f}%')
+print(f'RJ = {RJ/TOT*100: .2f}%')
+print(f'ES = {ES/TOT*100: .2f}%')
+print(f'OTS = {OTS/TOT*100: .2f}%')
